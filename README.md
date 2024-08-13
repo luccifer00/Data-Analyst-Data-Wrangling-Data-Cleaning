@@ -1,7 +1,7 @@
 # Data Cleaning and Custom Tokenization
 
 ## Project Overview
-This notebook is part of a larger project aimed at developing a neural network capable of understanding natural language, LaTeX, and mathematical expressions. The ultimate goal is to enable the network to solve complex mathematical problems. The project is divided into four main sections, each focusing on different aspects of data processing and neural network training:
+This notebook is part of a larger project aimed at developing a neural network capable of understanding natural language, LaTeX, and mathematical expressions. The ultimate goal is to enable the network to solve complex mathematical problems. The project is motivated by the Kaggle competition ["Artificial Intelligence Mathematical Olympiad"](https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize). It is divided into four main sections, each focusing on different aspects of data processing and neural network training.:
 
 1. **Data Cleaning and Custom Tokenization**: This section, represented by this notebook, focuses on cleaning and preparing the data, and custom tokenization to extract mathematical expressions.
 2. **Mathematical Expression Parsing**: The next section will focus on parsing the extracted mathematical expressions into a format suitable for analysis.
@@ -24,7 +24,7 @@ To run this notebook, ensure you have the following libraries installed:
 - numpy
 - pandas
 - re
-- sympy
+- csv
 
 You can install these libraries using pip:
 ```bash
